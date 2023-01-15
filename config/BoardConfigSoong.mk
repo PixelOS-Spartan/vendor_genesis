@@ -57,7 +57,8 @@ SOONG_CONFIG_genesisGlobalVars += \
     target_trust_usb_control_enable \
     target_trust_usb_control_disable \
     uses_egl_display_array \
-    uses_miui_camera
+    uses_miui_camera \
+    uses_oplus_camera
 
 SOONG_CONFIG_NAMESPACES += genesisNvidiaVars
 SOONG_CONFIG_genesisNvidiaVars += \
@@ -86,6 +87,7 @@ SOONG_CONFIG_genesisGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALL
 SOONG_CONFIG_genesisGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAMERA)
 SOONG_CONFIG_genesisGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_genesisGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
+SOONG_CONFIG_genesisGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 SOONG_CONFIG_genesisNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_genesisQcomVars_qti_vibrator_use_effect_stream := $(TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM)
 SOONG_CONFIG_genesisQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
