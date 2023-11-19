@@ -254,6 +254,9 @@ include vendor/genesis/config/fonts.mk
 # Google apps and services
 $(call inherit-product, vendor/gms/products/gms.mk)
 
+# Microsoft
+$(call inherit-product, vendor/microsoft/packages.mk)
+
 # Themed icons
 $(call inherit-product, vendor/google/overlays/ThemeIcons/config.mk)
 
